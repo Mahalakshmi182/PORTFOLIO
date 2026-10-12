@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Gavini Mahalakshmi's portfolio as an Electronics and Communication Engineering student interested in VLSI, Digital Logic Design, and technology projects.">
+  <title>Gavini Mahalakshmi | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav wrap" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Gavini Mahalakshmi home"><span class="brand-mark">G</span> Gavini Mahalakshmi<span class="brand-dot">.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle light and dark theme">☼</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero wrap" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> ECE STUDENT · DEVELOPER</p>
+        <h1>Turning ideas into<br><span class="gradient-text">useful technology.</span></h1>
+        <p class="hero-intro">Hi, I'm <strong>Gavini Mahalakshmi</strong>, an Electronics and Communication Engineering (ECE) student who enjoys exploring how electronics, communication, and software come together in everyday technology. I'm building my understanding of subjects like digital logic and VLSI while also developing practical programming skills in Python and Java. Through coursework and projects, I hope to connect what I learn across hardware and software to create useful, real-world solutions.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my projects <span>↗</span></a>
+          <a class="button button-secondary" href="#contact">Let's connect</a>
+        </div>
+        <div class="social-row">
+          <a href="https://github.com/Mahalakshmi182" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          <span class="social-separator">/</span>
+          <span>Learning by building</span>
+        </div>
+      </div>
+      <div class="hero-art hero-photo-wrap" aria-label="Gavini Mahalakshmi's profile photo">
+        <div class="photo-glow"></div>
+        <div class="photo-frame"><img class="profile-photo" src="assets/mahalakshmi-photo.jpeg" alt="Gavini Mahalakshmi smiling in a blue outfit in a garden" /></div>
+        <div class="floating-chip chip-python">◈ VLSI</div>
+        <div class="floating-chip chip-web">✳ Web</div>
+        <div class="floating-chip chip-build">↗ Build · Learn · Improve</div>
+      </div>
+      <a class="scroll-cue" href="#about"><span></span> Scroll to explore</a>
+    </section>
+
+    <section class="section section-muted" id="about">
+      <div class="wrap">
+        <div class="section-heading">
+          <p class="eyebrow">A LITTLE ABOUT ME</p>
+          <h2>Curious mind.<br><span class="gradient-text">Practical builder.</span></h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-copy">
+            <p class="lead">I enjoy learning how technology works and applying that knowledge to projects that solve real problems.</p>
+            <p>As an ECE student, I am building my foundation in core electronics, VLSI, and Digital Logic Design (DLD). I am also interested in embedded systems and software projects that connect hardware concepts with practical applications.</p>
+            <a class="text-link" href="https://github.com/Mahalakshmi182" target="_blank" rel="noopener noreferrer">More on GitHub <span>↗</span></a>
+          </div>
+          <div class="skills-panel">
+            <h3>Technologies & interests</h3>
+            <div class="skill-group"><span class="skill-label">Core ECE</span><div class="tags"><span>VLSI</span><span>Digital Logic Design (DLD)</span></div></div>
+            <div class="skill-group"><span class="skill-label">Programming & web basics</span><div class="tags"><span>Python</span><span>Java</span><span>HTML</span><span>CSS</span><span>Flask</span></div></div>
+            <div class="skill-group"><span class="skill-label">Tools</span><div class="tags"><span>GitHub</span><span>VS Code</span><span>ESP32</span><span>Render</span><span>Netlify</span></div></div>
+            <p class="skills-note">ECE concepts, programming skills, and development tools I am learning and exploring through coursework and projects.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap" id="projects">
+      <div class="section-heading projects-heading">
+        <div><p class="eyebrow">SELECTED WORK · 03 PROJECTS</p><h2>Things I've <span class="gradient-text">built.</span></h2></div>
+        <a class="text-link" href="https://github.com/Mahalakshmi182?tab=repositories" target="_blank" rel="noopener noreferrer">All repositories <span>↗</span></a>
+      </div>
+      <div class="project-grid">
+        <article class="project-card project-featured">
+          <div class="project-visual visual-resume"><div class="visual-icon">▤</div><div class="mini-report"><span>RESUME REPORT</span><b>ATS Analysis</b><div class="report-line"></div><div class="report-line short"></div><div class="report-score">✓ Skills matched</div></div><span class="visual-label">PYTHON · FLASK</span></div>
+          <div class="project-content"><div class="project-meta"><span>01 / WEB APPLICATION</span><span class="project-arrow">↗</span></div><h3>Smart Resume Analyser</h3><p>A Flask-based resume analysis tool that extracts resume text, identifies skills, calculates an ATS-style score, and supports job-description matching.</p><div class="tags"><span>Python</span><span>Flask</span><span>HTML/CSS</span></div><a class="project-link" href="https://github.com/Mahalakshmi182/SMART-RESUME-ANALYSER" target="_blank" rel="noopener noreferrer">View source code <span>↗</span></a></div>
+        </article>
+        <article class="project-card">
+          <div class="project-visual visual-battery"><div class="battery-symbol">▰</div><div class="pulse-line"></div><span class="visual-label">ESP32 · MONITORING</span></div>
+          <div class="project-content"><div class="project-meta"><span>02 / EMBEDDED SYSTEMS</span><span class="project-arrow">↗</span></div><h3>Battery Management System</h3><p>An ESP32-based system concept focused on lithium-ion battery safety through real-time monitoring and protection.</p><div class="tags"><span>ESP32</span><span>Embedded Systems</span><span>Monitoring</span></div><a class="project-link" href="https://github.com/Mahalakshmi182/battery-management-system" target="_blank" rel="noopener noreferrer">View source code <span>↗</span></a></div>
+        </article>
+        <article class="project-card">
+          <div class="project-visual visual-qr"><div class="qr-grid" aria-hidden="true"></div><span class="visual-label">PYTHON · UTILITY</span></div>
+          <div class="project-content"><div class="project-meta"><span>03 / PYTHON TOOL</span><span class="project-arrow">↗</span></div><h3>QR Code Generator</h3><p>A simple Python utility that generates QR codes from text or URLs using the qrcode library.</p><div class="tags"><span>Python</span><span>qrcode</span><span>Utility</span></div><a class="project-link" href="https://github.com/Mahalakshmi182/QR-Code-Generator" target="_blank" rel="noopener noreferrer">View source code <span>↗</span></a></div>
+        </article>
+      </div>
+      <p class="project-note">Project descriptions are based on the public repository summaries. Open each repository for its latest code and full details.</p>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="wrap contact-inner">
+        <div><p class="eyebrow">LET'S CONNECT</p><h2>Have an idea?<br><span class="gradient-text">Let's build something.</span></h2><p class="contact-copy">I'm open to learning opportunities, collaborations, and conversations about technology and software projects.</p></div>
+        <div class="contact-actions">
+          <a class="button button-primary" href="mailto:gavinimahalakshmim@gmail.com">Email me <span>↗</span></a>
+          <a class="button button-secondary" href="https://github.com/Mahalakshmi182" target="_blank" rel="noopener noreferrer">Connect on GitHub <span>↗</span></a>
+          <a class="button button-secondary" href="https://github.com/Mahalakshmi182?tab=repositories" target="_blank" rel="noopener noreferrer">Browse my repositories</a>
+          <a class="contact-email" href="mailto:gavinimahalakshmim@gmail.com">gavinimahalakshmim@gmail.com</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"><div class="wrap footer-inner"><a class="brand" href="#home"><span class="brand-mark">G</span> Gavini Mahalakshmi<span class="brand-dot">.</span></a><span>Designed with curiosity and built with care.</span><a href="#home">Back to top ↑</a></div><p class="copyright">© <span id="year"></span> Gavini Mahalakshmi · <a href="https://github.com/Mahalakshmi182" target="_blank" rel="noopener noreferrer">GitHub</a></p></footer>
+</body>
+</html>
